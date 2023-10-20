@@ -1,0 +1,44 @@
+.In
+{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+/* Input.css */
+
+.In .Source input, 
+.In .Destination input {
+    width: 300px;      /* Adjust to your preferred width */
+    height: px;      /* Adjust to your preferred height */
+    font-size: 18px;   /* Adjust to your preferred font size */
+    padding: 10px 15px;  /* Adjust top/bottom and left/right padding as needed */
+    border: 1px solid #ccc; /* Optional: add a border for better visibility */
+    border-radius: 4px; /* Optional: round the corners for a smoother look */
+}
+
+/* If you want to style the Search button as well, you can add the following: */
+.In .Search button {
+    padding: 10px 20px; /* Adjust as needed */
+    font-size: 16px;   /* Adjust to your preferred font size */
+    border-radius: 4px;
+}
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-container input {
+    padding-left: 30px; /* Adjust if needed */
+}
+
+.placeholder-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: black;
+}
+
+

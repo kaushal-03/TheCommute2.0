@@ -10,7 +10,8 @@ const Button = () => {
         backgroundColor:'transparent',
         border:'none',
       }}>
-        <span className="material-icons" style={{ fontSize: '24px' }}>add_circle</span><span className="button-text">Publish A Ride</span>
+    <span className="material-icons" style={{ fontSize: '35px', marginRight: '10px' }}>add_circle</span>
+    <span className="button-text">Publish A Ride</span>
       </button>
       
   )
