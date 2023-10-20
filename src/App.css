@@ -9,7 +9,8 @@
 .Nav
 {
 height: 15%;
-background-color: black;
+display: flex;
+justify-content: flex-end;
 }
 .Content
 {

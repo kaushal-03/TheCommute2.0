@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "./Group 78.png";
+import Button from "./Components/Button";
 import "./App.css";
 function App() {
   return (
     <div className="Main">
       <div className="Nav">
-
+      <Button/>
       </div>
       <div className="Content">
 
