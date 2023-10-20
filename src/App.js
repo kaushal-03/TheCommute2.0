@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Image from "./Group 78.png";
+import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Main">
+      <div className="Nav">
+
+      </div>
+      <div className="Content">
+
+        <div className="Data">
+          <h3>
+            The Commute
+          </h3>
+          <div className="motto">
+          <p>
+            Sit proident sunt ipsum est.Cupidatat duis dolor exercitation fugiat mollit mollit consectetur sunt laborum in. Duis reprehenderit deserunt ipsum dolore in minim ullamco. Mollit elit id et occaecat in consectetur aliquip velit aliqua.
+          </p>
+          </div>
+        </div>
+        <div className="Image">
+          <img src={Image} className="Image" />
+        </div>
+      </div>
+      <div className="Find">
+        <div className="SearchBox">
+          
+        </div>
+      </div>
     </div>
   );
 }

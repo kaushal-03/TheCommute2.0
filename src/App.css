@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.Main
+{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav
+{
+height: 15%;
+background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Content
+{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50%;
+  width: 100%;
+  background-color:whitesmoke;
+}
+.Find
+{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 35%;
+  width: 100%;
+  background-color:bisque;
+}
+.Image
+{
+  height:100%;
 }
 
-.App-link {
-  color: #61dafb;
+.SearchBox
+{
+  height:75%;
+  width: 95%;
+  background-color: #75BF7A;
+  border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3
+{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+}
+.motto
+{
+  width: 70%;
 }
