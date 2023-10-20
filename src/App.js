@@ -12,7 +12,7 @@ function App() {
 
         <div className="Data">
           <h3>
-            The Commute
+            The Commute Mawa
           </h3>
           <div className="motto">
           <p>
