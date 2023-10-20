@@ -1,18 +1,22 @@
 import React from "react";
 import Image from "./Group 78.png";
 import Button from "./Components/Button";
+import Input from "./Components/Input";
+import 'material-icons/iconfont/material-icons.css';
 import "./App.css";
 function App() {
   return (
     <div className="Main">
       <div className="Nav">
+      
       <Button/>
+      <span className="material-icons-sharp">person</span>
       </div>
       <div className="Content">
 
         <div className="Data">
           <h3>
-            The Commute Mawa
+            The Commute
           </h3>
           <div className="motto">
           <p>
@@ -26,7 +30,7 @@ function App() {
       </div>
       <div className="Find">
         <div className="SearchBox">
-          
+          <Input/>
         </div>
       </div>
     </div>
