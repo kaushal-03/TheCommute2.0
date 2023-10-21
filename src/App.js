@@ -16,7 +16,7 @@ function App() {
 
         <div className="Data">
           <h3>
-            The Commute
+            The Commute 2.0 !
           </h3>
           <div className="motto">
           <p>
